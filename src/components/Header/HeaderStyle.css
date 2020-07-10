@@ -1,0 +1,180 @@
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+/*****HEADER********/
+/*logo*/
+.vista2 {
+  display: none !important;
+}
+
+/*navbar*/
+.navbar {
+  padding: 0.8rem 1rem;
+}
+
+.bg-light {
+  background: #fff !important;
+}
+
+.bg-light a {
+  color: #000000 !important;
+}
+
+.mr-auto {
+  margin-left: auto !important;
+}
+
+/*butons*/
+.btn-search {
+  margin-top: 0.5rem !important;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(0, 181, 226);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #00b5e2;
+  border-color: #00b5e2;
+  box-shadow: none;
+}
+
+.visible2 {
+  display: none !important;
+}
+
+/*section-bar*/
+.nav {
+  background: gainsboro;
+  padding: 0.6rem 1rem;
+}
+/*****END-HEADER********/
+
+/**************************************************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /*****HEADER********/
+
+  .navbar {
+    padding: 0.8rem 2rem;
+  }
+
+  .btn-search {
+    margin-top: 0.5rem !important;
+    width: auto;
+    height: auto;
+  }
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 85%;
+    vertical-align: middle;
+  }
+  /*****END-HEADER********/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  /*****HEADER********/
+  /*logo*/
+  .vista1 {
+    display: none !important;
+  }
+
+  .vista2 {
+    display: flex !important;
+  }
+
+  .navbar {
+    padding: 0.8rem 4rem;
+  }
+
+  .form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 89%;
+    vertical-align: middle;
+  }
+
+  .btn-search {
+    margin-top: 0.5rem !important;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  /*logo*/
+  .vista1 {
+    display: none !important;
+  }
+
+  .vista2 {
+    display: flex !important;
+  }
+
+  /*formualrio*/
+  .form-inline {
+    display: contents;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 404px;
+    vertical-align: middle;
+  }
+
+  /*botones*/
+  .btn-search {
+    margin-top: 0.53rem !important;
+    width: 47px;
+    height: 36px;
+    position: absolute;
+    margin-left: 356px;
+  }
+
+  .btn-primary {
+    color: gray;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+  }
+
+  .visible1 {
+    display: none !important;
+  }
+  .visible2 {
+    display: flex !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .form-inline {
+    display: contents;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 628px;
+    vertical-align: middle;
+  }
+
+  .btn-search {
+    margin-top: 0.53rem !important;
+    width: 47px;
+    height: 36px;
+    position: absolute;
+    margin-left: 580px;
+  }
+}
